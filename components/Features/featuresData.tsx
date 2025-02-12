@@ -5,61 +5,50 @@ const featuresData: Feature[] = [
     id: 1,
     icon: "/images/players/IMG-20250210-WA0061.jpg",
     title: "Ibrahim Sanusi",
-    description:
-      "CF",
+    description: "CF",
   },
   {
     id: 2,
     icon: "/images/players/IMG-20250210-WA0061.jpg",
     title: "David Moses",
-    description:
-      "MD",
+    description: "MD",
   },
   {
     id: 3,
     icon: "/images/players/IMG-20250210-WA0061.jpg",
     title: "Ibrahim Sanusi",
-    description:
-      "DF",
+    description: "DF",
   },
   {
     id: 4,
     icon: "images/players/IMG-20250210-WA0061.jpg",
     title: "David Moses",
-    description:
-      "GK",
+    description: "GK",
   },
   {
-    id: 1,
+    id: 5,
     icon: "images/players/IMG-20250210-WA0061.jpg",
     title: "Ibrahim Sanusi",
-    description:
-      "CF",
+    description: "CF",
   },
   {
-    id: 2,
+    id: 6,
     icon: "images/players/IMG-20250210-WA0061.jpg",
     title: "David Moses",
-    description:
-      "MD",
+    description: "MD",
   },
   {
-    id: 3,
+    id: 7,
     icon: "images/players/IMG-20250210-WA0061.jpg",
     title: "Ibrahim Sanusi",
-    description:
-      "DF",
+    description: "DF",
   },
   {
-    id: 4,
+    id: 8,
     icon: "images/players/IMG-20250210-WA0061.jpg",
     title: "David Moses",
-    description:
-      "GK",
+    description: "GK",
   },
-  
-  
-  
 ];
 
 export default featuresData;

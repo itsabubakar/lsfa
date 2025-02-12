@@ -20,7 +20,7 @@ const Contact = () => {
     <>
       {/* <!-- ===== Contact Start ===== --> */}
       <section id="support" className="px-4 md:px-8 2xl:px-0">
-        <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
+        <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-10">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
             <Image
@@ -54,24 +54,29 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 2, delay: 0.1 }}
               viewport={{ once: true }}
-              className="flex flex-col items-center animate_top w-full xl:pt-15"
+              className="animate_top flex w-full flex-col items-center xl:pt-10"
             >
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Find us
               </h2>
-              <div className="flex ">
+              <div className="flex w-full justify-between ">
                 <div className="5 mb-7 w-[280px] text-center">
                   <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                    Our Loaction
+                    Our Location
                   </h3>
-                  <p>Address: NO 3A , ALI AKILU ROAD , KADUNA, KADUNA STATE, NIGERIA</p>
+                  <p>
+                    Address: NO 3A , ALI AKILU ROAD, KADUNA, KADUNA STATE,
+                    NIGERIA
+                  </p>
                 </div>
                 <div className="5 mb-7 w-[280px] text-center">
                   <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                     Email Address
                   </h3>
                   <p>
-                    <a href="littlestarsfootballltd@gmail.com">littlestarsfootballltd@gmail.com</a>
+                    <a href="littlestarsfootballltd@gmail.com">
+                      Littlestarsfootballltd@gmail.com
+                    </a>
                   </p>
                 </div>
                 <div className=" w-[280px] text-center">
@@ -79,7 +84,7 @@ const Contact = () => {
                     Phone Number
                   </h4>
                   <p>
-                    <p>+2348096083133</p>
+                    <span>+2348096083133</span>
                   </p>
                 </div>
               </div>

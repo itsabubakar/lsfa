@@ -28,7 +28,8 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative text-3xl font-bold">Logo
+                <a href="/" className="relative text-3xl font-bold">
+                  Logo
                 </a>
 
                 <p className="mb-10 mt-5">
@@ -42,7 +43,7 @@ const Footer = () => {
                   href="#"
                   className="text-xl font-medium text-black dark:text-white"
                 >
-                  littlestarsfootballltd@gmail.com
+                  Littlestarsfootballltd@gmail.com
                 </a>
               </motion.div>
 
@@ -83,70 +84,11 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Players
+                        Discover Players
                       </a>
                     </li>
                   </ul>
                 </motion.div>
-
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Support
-                  </h4>
-
-                  <ul>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Company
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Press media
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Our Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Contact Us
-                      </a>
-                    </li>
-                  </ul>
-                </motion.div>
-
               </div>
             </div>
           </div>
@@ -200,7 +142,8 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Littile Stars Football Academy. All rights reserved
+                &copy; {new Date().getFullYear()} Littile Stars Football
+                Academy. All rights reserved
               </p>
             </motion.div>
 
@@ -224,7 +167,10 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-5">
                 <li>
-                  <a href="https://www.facebook.com/share/15sHMpKVAV/" aria-label="social icon">
+                  <a
+                    href="https://www.facebook.com/share/15sHMpKVAV/"
+                    aria-label="social icon"
+                  >
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
                       width="24"

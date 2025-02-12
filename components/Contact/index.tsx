@@ -59,7 +59,7 @@ const Contact = () => {
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Find us
               </h2>
-              <div className="flex w-full justify-between ">
+              <div className="flex w-full flex-col items-center justify-center pb-10 sm:flex-row sm:justify-between">
                 <div className="5 mb-7 w-[280px] text-center">
                   <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                     Our Location
